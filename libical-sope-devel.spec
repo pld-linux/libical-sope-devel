@@ -13,7 +13,6 @@ Vendor:		OpenGroupware.org
 License:	LGPL
 Group:		Development/Libraries
 Source0:	http://download.opengroupware.org/sources/trunk/%{name}-trunk-latest.tar.gz
-#Patch0:
 URL:		http://www.softwarestudio.org/libical/
 #AutoReqProv:	off
 BuildRequires:	autoconf
@@ -24,8 +23,8 @@ BuildRequires:	gcc-objc
 BuildRequires:	gnustep-make >= 1.10.0
 BuildRequires:	libfoundation-devel
 BuildRequires:	libobjc-lf2-devel
+Requires:	gnustep-make
 # should be autodetected
-#Requires:	gnustep-make
 #Requires:	libfoundation
 #Requires:	libobjc-lf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
