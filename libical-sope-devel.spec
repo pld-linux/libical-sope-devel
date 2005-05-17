@@ -13,6 +13,7 @@ Vendor:		OpenGroupware.org
 License:	LGPL
 Group:		Development/Libraries
 Source0:	http://download.opengroupware.org/sources/trunk/%{name}-trunk-%{version}-%{trunkdata}.tar.gz
+# Source0-md5:	7b81daedbf468ebf796a166ad28473da
 URL:		http://www.softwarestudio.org/libical/
 #AutoReqProv:	off
 BuildRequires:	autoconf
