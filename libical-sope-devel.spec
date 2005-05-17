@@ -1,18 +1,18 @@
 # TODO:
 # - spec filename vs Name
 # - what about shared libs?
-
+%define		trunkdata		200410151506
 %define		libical_makeflags	-s
 
 Summary:	IETF's iCalendar Calendaring and Scheduling protocols
 Summary(pl):	Protoko³y kalendarza i planowania IETF iCalendar
 Name:		libical-sope
-Version:	1.0
-Release:	0.38
+Version:	r55  
+Release:	0.1
 Vendor:		OpenGroupware.org
 License:	LGPL
 Group:		Development/Libraries
-Source0:	http://download.opengroupware.org/sources/trunk/%{name}-trunk-latest.tar.gz
+Source0:	http://download.opengroupware.org/sources/trunk/%{name}-trunk-%{version}-%{trunkdata}.tar.gz
 URL:		http://www.softwarestudio.org/libical/
 #AutoReqProv:	off
 BuildRequires:	autoconf
@@ -23,10 +23,8 @@ BuildRequires:	gcc-objc
 BuildRequires:	gnustep-make >= 1.10.0
 BuildRequires:	libfoundation-devel
 BuildRequires:	libobjc-lf2-devel
+BuildRequires:	libical-devel
 Requires:	gnustep-make
-# should be autodetected
-#Requires:	libfoundation
-#Requires:	libobjc-lf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
