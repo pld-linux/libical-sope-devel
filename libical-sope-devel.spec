@@ -5,7 +5,7 @@
 %define		libical_makeflags	-s
 
 Summary:	IETF's iCalendar Calendaring and Scheduling protocols
-Summary(pl):	Protoko硑 kalendarza i planowania IETF iCalendar
+Summary(pl.UTF-8):   Protoko艂y kalendarza i planowania IETF iCalendar
 Name:		libical-sope
 Version:	r55  
 Release:	0.1
@@ -34,11 +34,11 @@ Calendaring and Scheduling protocols. (RFC 2445, 2446, and 2447). It
 parses iCal components and provides a C API for manipulating the
 component properties, parameters, and subcomponents.
 
-%description -l pl
-Libical to implementacja z otwartymi 紃骴砤mi protoko丑w kalendarza i
+%description -l pl.UTF-8
+Libical to implementacja z otwartymi 藕r贸d艂ami protoko艂贸w kalendarza i
 planowania IETF iCalendar (RFC 2445, 2446 i 2447). Przetwarza
-sk砤dniki iCal i udost阷nia API C do obr骲ki w砤禼iwo禼i, parametr體 i
-podelement體 sk砤dnik體 iCal.
+sk艂adniki iCal i udost臋pnia API C do obr贸bki w艂a艣ciwo艣ci, parametr贸w i
+podelement贸w sk艂adnik贸w iCal.
 
 %prep
 %setup -q -n libical-sope
