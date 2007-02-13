@@ -5,7 +5,7 @@
 %define		libical_makeflags	-s
 
 Summary:	IETF's iCalendar Calendaring and Scheduling protocols
-Summary(pl.UTF-8):   Protokoły kalendarza i planowania IETF iCalendar
+Summary(pl.UTF-8):	Protokoły kalendarza i planowania IETF iCalendar
 Name:		libical-sope
 Version:	r55  
 Release:	0.1
